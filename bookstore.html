@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Records</title>
+    <link rel="stylesheet" href="bookstore.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter Book Details</h1>
+      <form action="" class="form">
+        <div class="book-details">
+          <div class="input-group">
+            <label for="book-name" class="label">Name of the Book</label>
+            <input type="text" id="book-name" />
+          </div>
+          <div class="input-group">
+            <label for="author-name">Author Name</label>
+            <input type="text" id="author-name" />
+          </div>
+          <div class="input-group">
+            <label for="price">Book Price</label>
+            <input type="number" id="price" />
+          </div>
+        </div>
+
+        <button class="btn" type="submit">Create Record</button>
+      </form>
+    </div>
+    <div class="record-container">
+      <h2>New Records</h2>
+
+      <!-- <div class="records">
+        <div class="content">
+          <input type="text" readonly  />
+          <input type="text" readonly   />
+          <input type="number" readonly />
+        </div>
+        <div class="actions">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </div>
+      </div> -->
+    </div>
+
+    <script src="bookstore.js"></script>
+  </body>
+</html>

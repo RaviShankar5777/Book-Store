@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 60%;
+  height: 120%;
+}
+
+#create-account-form {
+  position: fixed;
+  bottom: 60px;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+h1 {
+  color: yellow;
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+ 
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.input-group input {
+  width: 250px;
+  height: 37px;
+  outline: none;
+  border: none;
+  opacity: 0.9;
+  color: white;
+  font-weight: 700;
+  background: transparent;
+  border: 2px solid teal;
+  border-radius: 20px;
+  padding: 0px 10px;
+  font-family: font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.success input {
+  border: 2px solid green;
+}
+
+.error input {
+  border: 2px solid red;
+}
+
+.input-group p {
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    visibility: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  .error p{
+    visibility: visible;
+    font-size: 14px;
+    color: red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+::placeholder {
+  color: yellow;
+  font-size: 15px;
+  font-weight: 700;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid yellow;
+  background: teal;
+  color: yellow;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
